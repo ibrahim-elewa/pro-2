@@ -1,0 +1,404 @@
+ /** {
+    outline: 1px solid #000;
+} */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+
+.na-light{
+    background-color: #f8f9fa00 !important;
+  
+}
+.left-nav{
+    flex-direction: row !important;
+}
+.navbar-nav{
+    flex-direction: row-reverse !important;
+}
+.logo-img{
+    width: 111px;
+    margin-top: 14px;
+}
+
+header.home-hed{
+    position: relative;
+}
+
+header video{
+
+} 
+header .na{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+header .text{
+    position: absolute;
+    background-color: rgba(209, 112, 84, 0.397);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+header .text h1{
+    
+   
+    margin-top: 25%;
+    
+
+}
+ header .na .nav-item .nav-link{
+    color: white; 
+    
+}
+.nav2{
+    z-index: 99999999999999999;
+  width: 100%;
+  margin-top: 14px;
+  margin-top: 0px;
+  background-color: #f8f9fa00 !important;
+  display: none;
+  
+}
+.nav2 .navbar-nav{
+    flex-direction: column !important;
+}
+.logo-nav2{
+    width: 80px;
+}
+@media (max-width:998px){
+    .na-light{
+        display: none;
+    }
+    .nav2{
+        display: flex;
+    }
+    .but-now{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+}
+header .text .but-now{
+    
+    background-color: rgba(5, 5, 41, 0.979);
+    color: white;
+    border: none;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    
+    
+}
+
+.sec2{
+    margin-bottom: 80px;
+}
+.img-city{
+    width: 50%;
+    margin-top: 50%;
+    transform: rotate(16deg);
+    margin-bottom: 50px;
+}
+.h-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #303174
+}
+.h-text span {
+    border-bottom: 2px solid sandybrown;
+}
+
+.rent{
+    width: 112px;
+    margin-bottom: 26px;
+    margin-left: 122px;
+}
+h3{
+    color: #303174;
+}
+.sec3{
+    background-color: #f2f2f2;
+  
+ 
+}
+.sec3 h2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.card{
+    margin-bottom: 50px;
+    border-radius:20px ;
+}
+.fa, .fas {
+    font-weight: 900;
+    color: orange;
+    margin-left: 10px;
+}
+.link{
+
+   
+    display: inline-block;
+    padding-top: 10px;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    background-color: #303174;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.link:hover{
+    text-decoration: none;
+    color: white;
+}
+.sec4{
+    background-image: url(../img/images/imgs/contact\ us.gif);
+    background-position: center;
+    background-size: cover;
+
+}
+.form-control
+{
+ 
+  border-radius:20px ;  
+    margin-bottom: 50px;
+}
+.mas-h
+{
+    height: 150px;
+}
+.color{
+    color: white ;
+    margin-top: 0px;
+}
+.sec5{
+    background-color: #ff604b;
+    height: 300px;
+}
+.con-us{
+    margin-top: 150px;
+}
+.con-but{
+    margin-bottom: 0px;
+}
+footer{
+    background: linear-gradient(45deg,#49337b,#fc726f);
+  
+   
+}
+
+   
+
+.fab {
+    float: left;
+    
+    margin-left: 0px;
+    color: white;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.link-1{
+  
+   margin-top: 80px;
+    color: white;
+    
+   
+}
+.link-1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+.logo-foo{
+    width: 60%;
+}
+.foo-p{
+    color: white;
+    font-size: 18px;
+}
+.mar-foo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.link-comp{
+    text-decoration: none;
+    color: black;
+}
+.link-comp:hover{
+    text-decoration: none;
+    color: black;
+
+}
+/* about us*/
+
+.bg-light-1{
+    background-color: #eb7636 !important;
+   
+}
+.na-about{
+    color: white;;
+}
+.hed-about .navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.about-sec1{
+ background-color:#a7a093 ;
+ color:white;
+}
+.about-h1{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.about-sec1-p{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.about-img{
+    width: 100%;
+    border-radius:20px ;
+}
+
+/* buy bage*/
+
+.buy-img{
+    width: 100%;
+    box-shadow: 6px 5px 11px 1px grey;
+    margin-bottom: 20px;
+}
+.active{
+    color: black !important;
+}
+.btn-secondary {
+    margin-bottom: 25px;
+    display: block;
+    cursor: pointer;
+    direction: block;
+    text-align: center !important;
+    background-color: #303174;
+    width: 100px;
+    margin-left: 56%;
+    border-radius: 20px;
+}
+
+/* ask us*/
+.mb-0 .btn.btn-link{
+    color: orangered;
+}
+
+
+
+/*apr-page*/
+.apr-sec1{
+    background-color: gray;
+}
+
+
+.rty{
+    margin-top: 90px;
+    direction: rtl;
+    width: 130px;
+    margin-bottom: 20px;
+}
+.ytr{
+    border-radius: 50px;
+    background-color: #303174;
+    border: none;
+}
+.tyr{
+    margin-top: 90px;
+    direction: rtl;
+}
+.apr-sec2{
+    margin-bottom: 100px;
+}
+.apr-bto1{
+    width: 200px;
+    color: white;
+    background-color: orange;
+
+}
+.apr-bto2{
+    width: 200px;
+    background-color: white;
+    color: #303174;
+    border: 1px solid #303174;
+}
+.apr-bto2:hover{
+    color: #303174;
+}
+.h-text1{
+    border-bottom: none;
+    border-right: 2px solid #eb7636;
+    color: #49337b;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.mr{
+    margin-right: 15px;
+}
+.apr-p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+h3{
+    font-size: 20px;
+    margin-right: 30px;
+}
+.apr-ul{
+    direction: rtl;
+}
+
+/* for buy*/
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
